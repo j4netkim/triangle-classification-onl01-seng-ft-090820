@@ -5,7 +5,8 @@ class Triangle
 
   def initialize(a, b, c)
     @sides = [a, b, c]
-  end
+    @sides.sort!
+  end 
 
   def kind
   end
