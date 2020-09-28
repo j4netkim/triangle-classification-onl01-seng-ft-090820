@@ -1,5 +1,7 @@
 class Triangle
-  attr_accessor :a, :b, :c
+  attr_accessor :sides
+
+  @sides = []
 
   def initialize(a, b, c)
     @a = a
@@ -8,7 +10,7 @@ class Triangle
   end
 
   def kind
-  end 
+  end
 
 
 
